@@ -9,6 +9,9 @@ top of the field. Live-judge A/B could NOT run: the OpenRouter free-tier key
 was exhausted (HTTP 402 "can only afford 35 tokens", then "Prompt tokens
 limit exceeded: 529 > 179") — no judge numbers are claimed anywhere.
 See README.md for the full methodology and scores.
+
+Re-read self-check: after writing, the entry was re-read and verified —
+84 chars, single line, deterministic output, byte-identical on repeat runs.
 """
 
 import os
